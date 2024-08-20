@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    header{
+    width: 100%;
+    background-color: #8b5cf6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:8px 0;
+    position: sticky;
+    top:0;
+
+
+    }
+    
+    .imagemdologo{
+        
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        background-image: url('./fundo.jpg.jpg');
+    }
+
+    .junçaologo{
+
+        display: flex;
+        align-items: center;
+
+
+    }
+    .textodologo{
+
+        color:aliceblue;
+        margin-left: 30px;
+        font-family: 'Bubblegum Sans', cursive;
+        
+    }
+    .links li{
+
+        display: inline-block;
+        font-family: 'Bubblegum Sans', cursive;
+        margin: 0 15px;
+    }
+.links li a{
+position: relative;
+font-size: 20px;
+color:#ddd6fe;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+/* uso de chat gpt nessa animação*/
+.links li a::after {
+    content: "";
+    position:absolute;
+    width:0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: width 0.2s ease-in-out;
+
+}
+.links li a:hover{
+
+    color: white;
+}
+/* animação para quando passar o mouse por cima do link, apareça um retangulo na fonte */
+.links li a:hover::after {
+    width: 100%;
+}
+body{
+    background-image: url('./fundo.jpg.jpg');
+    background-size: 100%;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+		
+		.container {
+			width: 75%;
+			margin: 40px auto;
+			background-color: #fbeaff;
+			padding: 18px;
+			border: 2px solid black;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+		
+		.titulo {
+			font-size: 30px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			color: #c90707;
+            text-align: center;
+		}
+		
+		.paragrafo {
+			margin-bottom: 20px;
+		}
+		
+		.lista {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.lista li {
+			margin-bottom: 10px;
+		}
+		
+		.lista li::before {
+			content: "";
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-color: #333;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+
+        .titulo2 {
+			font-size: 23px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			color: #333;
+		}
+        .imagem{
+            border-radius: 30%;
+            width: 20%;
+            margin-right: auto;
+            margin-left: auto;
+            display:block;
+        }
+        .imagem2{
+            border-radius: 30%;
+            width: 40%;
+            margin-right: auto;
+            margin-left: auto;
+            display:block;
+        }
+        .imagem3{
+            border-radius: 30%;
+            width: 40%;
+            margin-right: auto;
+            margin-left: auto;
+            display:block;
+        }
+        hr{
+           border:1px solid #8b5cf6;
+        }
+
+        html{
+            scroll-behavior:smooth ;
+        }
